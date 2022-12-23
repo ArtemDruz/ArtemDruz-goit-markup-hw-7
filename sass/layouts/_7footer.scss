@@ -1,0 +1,156 @@
+
+/* footer */
+
+.footer{
+    background-color: var(--background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.footer-nav {
+    min-width: 231px;
+}
+.foot-logo {
+    display: block;
+    margin-bottom: 28px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--white-color);
+    text-decoration: none;
+}
+.part {
+    color: #2196F3;
+}
+
+.address {
+    font-style: normal;
+    text-decoration: none;
+
+}
+.address-li:not(:last-child) {
+    margin-bottom: 9px; 
+    /* в мене на мекеті показує 12px */
+}
+.address-link {
+    color: var(--white-color);
+    line-height: 1.71;
+    text-decoration: none;
+
+}
+
+
+.address-contact {
+    line-height: 1.71;   
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
+/* друга частина футера */
+.footer-position {
+    display: flex;
+    align-items: baseline;
+}
+.footer-soc {
+    margin-left: 70px;
+}
+.footer-p {
+font-weight: 700;
+line-height: 1.14;
+text-transform: uppercase;
+color: var(--white-color);
+}
+
+.footer-soc-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.footer-soc-li {
+    width: 44px;
+    height: 44px;
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
+}
+
+.footer-soc-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+        color: #FFFFFF;
+    }
+    &:hover,
+    &:focus .footer-soc-svg{
+        fill: currentColor;
+    }
+}
+
+
+.footer-soc-svg {
+    fill: var(--white-color);}
+
+/* footer-actions */
+.footer-email {
+    margin-left: 93px;
+}
+.footer-label {
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--white-color);
+
+}
+.footer-input-wrapper {
+    display: flex;
+    margin-top: 20px;
+}
+.footer-input {
+    width: 358px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: #2F303A;
+    margin-right: 12px;
+    padding-left: 16px;
+}
+.footer-submit-button {
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;  
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white-color);
+    padding: 10px 28px;
+    cursor: pointer;
+}
+.footer-button-svg {
+    margin-left: 10px;
+}
