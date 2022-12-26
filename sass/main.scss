@@ -1,7 +1,9 @@
-@import './base/reset';
 @import './utils/vars';
-@import './components/container';
+@import './utils/hidden';
+@import './base/reset';
 @import './base/commons.scss';
+@import './components/container';
+@import './components/backdrop';
 @import './layouts/1header';
 @import './layouts/2hero';
 @import './layouts/3privileges';
@@ -11,5 +13,4 @@
 @import './layouts/7footer';
 @import './layouts/8portfolio-btn';
 @import './layouts/9offers';
-@import './components/backdrop';
-@import './utils/hidden';
+
